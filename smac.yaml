@@ -1,0 +1,14 @@
+name: smac
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy>=1.24
+  - scipy>=1.10
+  - pandas>=2.0
+  - matplotlib>=3.7
+  - jinja2>=3.1
+  - pip
+  - pip:
+      - tqdm>=4.65
