@@ -4,7 +4,8 @@ This repository contains the code to reproduce the results presented in the pape
 
  *"Simultaneous Monitoring of Shape and Surface Color via 4D Point Clouds: A Registration-free Approach"*
 
-Precomputed feature vectors are provided in `data/` to allow reproduction of all results without requiring access to a high-performance computing (HPC) cluster. 
+Precomputed feature vectors are provided to allow reproduction of the results without requiring access to a high-performance computing (HPC) cluster. 
+Feature vectors are available on Zenodo. Download them [here](https://zenodo.org/records/20084999) and place the `data/` folder in the root of this repository before running any script.
 
 Users who wish to recompute them from scratch using a HPC cluster can refer to the scripts in `hpc/`.
 
@@ -18,7 +19,7 @@ Users who wish to recompute them from scratch using a HPC cluster can refer to t
 ├── Figure_6a.py           # Reproduces Figure 6a
 ├── Figure_6b.py           # Reproduces Figure 6b
 ├── Figure_7.py            # Reproduces Figure 7 (all four panels)
-├── data/                  # Precomputed feature vectors
+├── data/                  # Precomputed feature vectors (downloaded from Zenodo)
 └── hpc/                   # HPC scripts to recompute feature vectors from scratch (see hpc/README.md)
 ```
 
