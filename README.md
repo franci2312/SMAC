@@ -4,6 +4,8 @@ This repository contains the code to reproduce the results presented in the pape
 
  *"Simultaneous Monitoring of Shape and Surface Color via 4D Point Clouds: A Registration-free Approach"*
 
+ Preprint: [Arxiv](https://arxiv.org/abs/2605.08753)
+
 Precomputed feature vectors are provided to allow reproduction of the results without requiring access to a high-performance computing (HPC) cluster. 
 Feature vectors are available on Zenodo. Download them [here](https://zenodo.org/records/20084999) and place the `data/` folder in the root of this repository before running any script.
 
