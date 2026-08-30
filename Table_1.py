@@ -12,13 +12,12 @@ def parse_arguments():
 
 if __name__ == '__main__':
     os.chdir(os.path.dirname(os.path.abspath(__file__)))
-    input_folder = 'data'
+    input_folder = 'data-smac'
     results_folder = 'results'
     os.makedirs(results_folder, exist_ok=True)
     args = parse_arguments()
     methods = ['gl', 'lle','isomap', 'lb']
     ranks = [101, 3, 3, 101]
-
     n1 = 600
     n2 = 300
     n3_list = [500, 1000, 2000, 3000, 4000]
